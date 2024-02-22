@@ -66,11 +66,11 @@ arduino-cli lib install --zip-path ./Third_Party_Libraries/ESPAsyncWebServer-mas
 
 #####
 # The espressif esptool.py needs libraries, set up a Python virtualenv to give it all the latest
-python3 -m venv venv3
+python3 -m venv venv
 
 #####
 # Activate the virtualenv
-. ./venv3/bin/activate
+. ./venv/bin/activate
 
 #####
 # To stop using python virutalenv use:
