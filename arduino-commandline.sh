@@ -43,7 +43,7 @@ arduino-cli core install esp32:esp32
 arduino-cli board listall
 
 #####
-# Install needed libraries for the demonstration program
+# Install (example) libraries for your program (use what is unique to your project!)
 arduino-cli lib install "Adafruit PWM Servo Driver Library"
 arduino-cli lib install "Adafruit SSD1306"
 arduino-cli lib install "Adafruit Neopixel"
@@ -81,7 +81,7 @@ python3 -m venv venv
 pip install -U pip
 pip install pyserial
 
-# Example Compile and Run. See other files `run*.sh` as well.
+# Example Compile and Run.
 
 #####
 # Compile and upload, use at the directory level of the directory `wifi_manager` - the command will look into the directory for file of same name.
